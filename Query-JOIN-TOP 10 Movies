@@ -1,0 +1,14 @@
+Which movies contributed the most/least to revenue gain? 		
+Query 1 ( Movies that contributed the most revenue gain):		
+SELECT 	A.title,	
+	COUNT(C.rental_id) AS rental_totals,	
+	       SUM (amount) AS total_amount_paid, 	
+	   AVG (rental_duration) AS average_rental_duration,	
+	   AVG (rental_rate) AS average_rental_rate	
+FROM film A		
+INNER JOIN inventory B ON A.film_id = B.film_id		
+INNER JOIN rental C ON B.inventory_id = C.inventory_id		
+INNER JOIN payment D ON C.customer_id = D.customer_id		
+GROUP BY A.title		
+ORDER BY SUM (amount) DESC	--or ASC if we want to get bottom 10 titles	
+LIMIT 10		
