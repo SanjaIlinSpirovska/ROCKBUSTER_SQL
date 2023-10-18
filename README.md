@@ -35,4 +35,4 @@ For this project, the following python libraries were used:
 + scipy - a fundamental Python library necessary for visualizations.
   
 The code is available as jupyter notebooks, under /scripts/. 
-## Resources
+## Key Competencies
