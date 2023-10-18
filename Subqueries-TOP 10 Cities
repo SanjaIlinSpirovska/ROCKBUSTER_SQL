@@ -1,4 +1,5 @@
---SQL Query to to retrieve TOP 10 cities within the top 10 countries using Subqueries 		
+--SQL Query to to retrieve TOP 10 cities within the top 10 countries, using subqueries when we need our query automatically to adjust itself to changing data	
+SELECT 	C.city,		
 SELECT 	C.city,		
 	D.country,		
 COUNT (customer_id) AS customer_numbers 			
