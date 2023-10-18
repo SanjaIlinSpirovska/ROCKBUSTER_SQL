@@ -13,7 +13,9 @@ decisions for sustained competitiveness against streaming giants like Netflix an
 * Do sales figures vary between geographic regions?
 ## Data
 The dataset contains information about Rockbuster’s film inventory, rentals, customers, and payments, among other things.
-Descriptions and Entity Relationship Diagram can be found in the Rockbuster Data Dictionary. 
+
+Descriptions and Entity Relationship Diagram can be found in the [Rockbuster Data Dictionary](https://github.com/SanjaIlinSpirovska/ROCKBUSTER_SQL/blob/main/Sent%20to%20client/03%20Data%20Dictionary.pdf). 
+
 Visualizations for this project can be found on Tableau [here](https://public.tableau.com/app/profile/sanja.ilin/viz/shared/GN2FP4ZMF).  
 ## Software and Tools
 Utilized software and tools included PostgreSQL, with specific applications such as pgAdmin, DbVisualizer, as well as Tableau and Excel.
