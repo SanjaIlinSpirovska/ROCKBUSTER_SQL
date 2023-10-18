@@ -1,0 +1,14 @@
+--SQL Query to retrieve a list of the gained revenue pro movie's category	
+SELECT F.category_id,
+F.name as category_name,
+COUNT (DISTINCT A.film_id) AS count_film_pro_category,
+COUNT (C.rental_id) AS rental_total,
+       SUM(amount) AS total_amount_paid
+FROM film A
+INNER JOIN inventory B ON A.film_id = B.film_id
+INNER JOIN rental C ON B.inventory_id = C.inventory_id
+INNER JOIN payment D ON C.customer_id = D.customer_id
+INNER JOIN film_category E ON A.film_id = E.film_id
+INNER JOIN category F ON E.category_id = F.category_id
+GROUP BY  F.category_id, category_name
+ORDER BY total_amount_paid DESC 
