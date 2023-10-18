@@ -12,19 +12,13 @@ decisions for sustained competitiveness against streaming giants like Netflix an
 * Where are customers with a high lifetime value based?
 * Do sales figures vary between geographic regions?
 ## Data
-The dataset comprises of information on the following parameters:
-* orders
-* products
-* departments.
-  
-The full details of the data are available here.
-## Tools
-For this project, the following python libraries were used:
-+ pandas - for data analysis
-+ NumPy - mathematical library that supports a variety of operations, a dependency of pandas
-+ seaborn - for visualization
-+ matplotlib - a plotting library and a dependency for seaborn
-+ scipy - a fundamental Python library necessary for visualizations.
-  
-The code is available as jupyter notebooks, under /scripts/. 
+The dataset contains information about Rockbuster’s film inventory, rentals, customers, and payments, among other things.
+Descriptions and Entity Relationship Diagram can be found in the Rockbuster Data Dictionary. 
+Visualizations for this project can be found on Tableau here.  
+## Software and Tools
+Utilized software and tools included PostgreSQL, with specific applications such as pgAdmin, DbVisualizer, as well as Tableau and Excel.
 ## Key Competencies
+1. **Descriptive Statistics:** Expertise in using SQL to compute fundamental descriptive statistics, such as minimum, maximum, and average values for numerical columns, and determining mode values for non-numeric columns.
+1. **Data Cleaning in SQL:** Adept at identifying and rectifying issues like non-uniform data, duplicate entries, and handling missing values, ensuring data quality.
+1. **Data Integration:** Skilled in joining multiple data tables, performing subqueries, and using Common Table Expressions (CTEs) for comprehensive data analysis.
+1. **Results Reporting:** Capable of conveying SQL analysis findings effectively, creating compelling visualizations, and crafting engaging narratives for presentations to business managers in PowerPoint. Proficient in sharing SQL results with technical colleagues using Excel and creating comprehensive data dictionaries for reference.
