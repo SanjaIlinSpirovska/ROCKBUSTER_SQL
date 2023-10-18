@@ -14,7 +14,7 @@ decisions for sustained competitiveness against streaming giants like Netflix an
 ## Data
 The dataset contains information about Rockbuster’s film inventory, rentals, customers, and payments, among other things.
 Descriptions and Entity Relationship Diagram can be found in the Rockbuster Data Dictionary. 
-Visualizations for this project can be found on Tableau here.  
+Visualizations for this project can be found on Tableau [here](https://public.tableau.com/app/profile/sanja.ilin/viz/shared/GN2FP4ZMF).  
 ## Software and Tools
 Utilized software and tools included PostgreSQL, with specific applications such as pgAdmin, DbVisualizer, as well as Tableau and Excel.
 ## Key Competencies
