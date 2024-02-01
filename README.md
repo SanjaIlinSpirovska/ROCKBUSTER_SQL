@@ -14,7 +14,7 @@ decisions for sustained competitiveness against streaming giants like Netflix an
 ## Data
 The dataset contains information about Rockbuster’s film inventory, rentals, customers, and payments, among other things.
 
-Dataset provided by CareerFoundary can be found [here].(http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
+Dataset provided by CareerFoundary can be found [here](http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
 
 Descriptions and Entity Relationship Diagram can be found in the [Rockbuster Data Dictionary](https://github.com/SanjaIlinSpirovska/ROCKBUSTER_SQL/blob/main/Sent%20to%20client/03%20Data%20Dictionary.pdf). 
 
